@@ -165,6 +165,13 @@ h4 {
     width: 20px;
     height: 20px;
 }
+.miniPic2 {
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+
+}
+
 h3 {
     font-size: 16px;
     color: #242424;
@@ -208,6 +215,7 @@ h3 {
 .topLink {
     display: flex;
     align-items: center;
+    column-gap: 5px;
 }
 
 .link {

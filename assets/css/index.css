@@ -1,0 +1,296 @@
+* {
+    font-family: "roboto", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFC017;
+    max-width: 100%;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    
+}
+a {
+    text-decoration: none;
+    color: #242424;
+}
+/* HEADER */
+header div {
+    display: flex;
+    max-width: 1192px;
+    min-height: 75px;
+    margin-inline: auto;
+    justify-content: space-between;
+    gap: 10px 15px;
+    align-items: center;
+}
+.logo {
+    margin-right: auto;
+}
+li {
+display: inline-block;
+}
+
+.firstBtn {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 99em;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+}
+
+/*SECTION - HERO */
+
+section {
+    background-color: #FFC017;
+    border-bottom: 1px solid black;
+    max-width: 100%;
+}
+
+.mainPart {
+    max-width: 1192px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+
+
+.hero {
+    width: 550px;
+    padding: 93px 0px 92px;
+}
+
+.repeatM {
+    width: 585px;
+}
+
+h1 {
+    font-family: "spectral", serif;
+  
+    font-size: 106px;
+    font-weight: 400;
+    letter-spacing: -0.08em;
+    line-height: 95px;
+    margin-bottom: 35px;
+}
+
+.mainP {
+    display: block;
+    width: 440px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.mainButton {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 99em;
+    text-align: center;
+    padding: 8px 20px;
+    width: 213px;
+    border: 1px solid transparent;
+}
+
+/* 6 BOX PART */
+
+article {
+    max-width: 100%;
+    border-bottom:1px solid  rgba(0, 0, 0, 0.8)
+    
+}
+
+.sixBox {
+    padding: 40px 0px 16px;
+    max-width: 1192px;
+    margin-inline: auto;
+}
+
+.trending {
+    max-width: 1192px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.trending h2 {
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.singleBox {
+    display: flex;
+    width: 100%;
+    max-width: 32%;
+    margin-bottom: 24px;
+}
+
+.nBox {
+    color: #f2f2f2;
+    font-size: 32px;
+    letter-spacing: -0.014em;
+    font-weight: 500;
+    margin-right: 16px;
+}
+
+.internalBox {
+    display: flex;
+    align-items: center;
+}
+h4 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #242424;
+    margin-left: 8px;
+}
+.miniPic {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+h3 {
+    font-size: 16px;
+    color: #242424;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.footBox {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+/* link part */
+
+.finalPart {
+    width: 1192px;
+    margin-inline: auto;
+    display: flex;
+    padding-top: 56px;
+    column-gap: 99.333px;
+}
+
+.links {
+    max-width: 695.333px;
+    width: 100%;
+
+}
+
+.side {
+
+    max-width: 397.333px;
+    width: 100%;
+    
+}
+.cardLink {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.topLink {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    flex-grow: 1;
+}
+
+.imgLink {
+    width: 200px;
+    height: 134px;
+}
+.footLink {
+    display: flex;
+    gap:5px ;
+    align-items: center;
+}
+.giveMargin {
+    margin-right: auto;
+}
+
+
+.sideTitle {
+    padding-bottom: 16px;
+}
+
+.sideTotalBtn {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.sideBtn {
+    background-color: #f2f2f2;
+    padding: 8px 16px;
+    margin: 0 8px 10px 0;
+    border-radius: 99em;
+    border: 1px solid transparent;
+}
+.linkBtn {
+    background-color: #f2f2f2;
+    padding: 8px 16px;
+    margin: 0 8px 10px 0;
+    border-radius: 99em;
+    border: 1px solid transparent;
+}
+.sideMain {
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+.divide {
+    padding-top: 16px;
+}
+.divide a {
+    color: forestgreen;
+    font-weight: 500;
+
+}
+
+.sideLinks {
+    padding: 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap:12px 25px;
+}
+
+li {
+    padding: 0 6px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #242424;
+}
+
+.middleLink p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6B6B6B;
+}
+
+.footLink span {
+    font-weight: 400;
+    font-size: 13px;
+    color: #6B6B6B;
+}
